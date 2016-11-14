@@ -1,0 +1,24 @@
+
+Hello! Welcome to this nifty little build container! Use the following
+commands to build for the specified platforms:
+
+NOTE: Replace x86_64 with i386 for 32-bit builds.
+
+RHEL/CentOS 5
+-------------
+
+$ cd ~/rpmbuild/SRPMS
+$ mockbuild -r epel-5-x86_64 -s salt-2016.3.4-2.el5_erik.src.rpm -d 'dist .el5' -i ../RPMS/python26-distribute-0.6.10-4.el5.noarch.rpm -i ../RPMS/python26-virtualenv-15.0.3-1.el5.noarch.rpm
+
+RHEL/CentOS 6
+-------------
+
+$ cd ~/rpmbuild/SRPMS
+$ mockbuild -r epel-6-x86_64 -s salt-2016.3.4-2.el5_erik.src.rpm -d 'dist .el6'
+
+
+RHEL/CentOS 7
+-------------
+
+$ cd ~/rpmbuild/SRPMS
+$ mockbuild -r epel-7-x86_64 -s salt-2016.3.4-2.el5_erik.src.rpm -d 'dist .el7'
