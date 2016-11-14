@@ -28,7 +28,7 @@ Like it says above, this is a proof-of-concept. RHEL/CentOS is in my wheelhouse,
 
 If you are so inclined, and already have a Fedora box with mock installed, the source RPM and the two RPMs that you need to pass to the mock command to provide two of the necessary ``BuildRequires`` can be found in the [rpmbuild-minimal](https://github.com/terminalmage/salt-virtualenv/tree/master/rpmbuild-minimal) directory.
 
-However, to make it as easy as possible, this repo contains everything needed to build a Docker image which contains all the components necessary for building RPMs, and is pre-configured and ready-to-use. Additionally, wthin the container the spec and source files are expanded from the source RPM, for those interested in inspecting them.
+However, to make it as easy as possible, this repo contains everything needed to build a Docker image which contains all the components necessary for building RPMs, and is pre-configured and ready-to-use. Additionally, within the container the spec and source files are expanded from the source RPM, for those interested in inspecting them.
 
 Here's how to set up the Docker-based build environment and build the RPMs:
 
