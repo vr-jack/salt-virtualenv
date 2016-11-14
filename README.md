@@ -82,7 +82,7 @@ You don't have to use ``~/mock``, but if you do use something different, then yo
 
 ### 6) Use the included ``mockbuild`` helper script to build the package
 
-When the Docker image starts, example commands for building packages RHEL/CentOS 5, 6, and 7 will be displayed. These commands use a helper script I wrote a while back to make mock a little more user-friendly.
+When the Docker image starts, example commands for building packages for RHEL/CentOS 5, 6, and 7 will be displayed. These commands use a helper script I wrote a while back to make mock a little more user-friendly.
 
 These example commands can be viewed [here](https://github.com/terminalmage/salt-virtualenv/tree/master/rpmbuild-minimal/motd).
 
